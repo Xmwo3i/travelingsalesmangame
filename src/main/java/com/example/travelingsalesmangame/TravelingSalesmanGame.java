@@ -505,6 +505,7 @@ public class TravelingSalesmanGame extends Application {
 
     // ValuableTreasure class
     public class ValuableTreasure {
+        private int valueOfTreasure;
         private int treasureId;
         private int xCoordinate;
         private int yCoordinate;
