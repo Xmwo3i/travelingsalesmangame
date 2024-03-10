@@ -430,52 +430,32 @@ public class TravelingSalesmanGame extends Application {
         }
     }
 
-    // Wallet class
-    public class Wallet {
-        private int balance;
 
-        public Wallet() {
-            this.balance = 0;
+
+    // House class
+    public class House {
+        private boolean isWall;
+        private boolean isTrap;
+
+        public House() {
+            this.isWall = false; // Default value, not a wall
+            this.isTrap = new Random().nextBoolean(); // Randomly determine if the house has a trap
         }
 
-        public void addMoney(int amount) {
-            balance += amount;
+        public boolean isWall() {
+            return isWall;
         }
 
-        public boolean deductMoney(int amount) {
-            if (amount <= balance) {
-                balance -= amount;
-                return true; // Deduction successful
-            }
-            return false; // Not enough balance
+        public void setWall(boolean isWall) {
+            this.isWall = isWall;
         }
 
-        public int getBalance() {
-            return balance;
-        }
-    }
-
-    // Trap class
-    public class Trap {
-        private int penalty;
-        private Point location;
-
-        public Trap(int penalty, Point location) {
-            this.penalty = penalty;
-            this.location = location;
+        public boolean isTrap() {
+            return isTrap;
         }
 
-        public void trigger(Wallet wallet) {
-            boolean result = wallet.deductMoney(penalty);
-            if (result) {
-                System.out.println("Trap activated! Lost " + penalty + " money.");
-            } else {
-                System.out.println("Not enough money to deduct!");
-            }
-        }
-
-        public Point getLocation() {
-            return location;
+        public void setTrap(boolean isTrap) {
+            this.isTrap = isTrap;
         }
     }
 
@@ -522,3 +502,5 @@ public class TravelingSalesmanGame extends Application {
         launch(args);
     }
 }
+
+
