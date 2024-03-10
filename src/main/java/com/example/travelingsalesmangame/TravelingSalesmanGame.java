@@ -21,6 +21,8 @@ import java.util.Random;
 import static javafx.scene.paint.Color.*;
 
 public class TravelingSalesmanGame extends Application {
+    // Commit practice Ainsley?
+    //Commit PRactice Ritwij?
     private static final int GRID_SIZE = 10;
     private static final int CELL_SIZE = 50;
     private Circle p1Piece; // player 1
