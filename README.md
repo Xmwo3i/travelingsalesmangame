@@ -1,4 +1,4 @@
-# Treasure Salesman Game
+# Traveling Salesman Game
 
 ## 📖 Table of Contents
 1. [Overview](#-overview)
@@ -12,7 +12,7 @@
 7. [Future Improvements](#-future-improvements)
 
 ## 🎮 Overview
-The **Treasure Salesman Game** is a competitive two-player strategy game where players explore a grid-based map to find hidden treasures, navigate through traps and obstacles, and engage in battles. The goal is to collect and sell as many treasures as possible while strategically using resources to gain an advantage.
+The **Traveling Salesman Game** is a competitive two-player strategy game where players explore a grid-based map to find hidden treasures, navigate through traps and obstacles, and engage in battles. The goal is to collect and sell as many treasures as possible while strategically using resources to gain an advantage.
 
 ## 🛠️ Technologies Used
 - **Java** - Core programming language
