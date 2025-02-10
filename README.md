@@ -10,8 +10,6 @@
 5. [Screenshots](#-screenshots)
 6. [Features](#-features)
 7. [Future Improvements](#-future-improvements)
-8. [Contributing](#-contributing)
-9. [License](#-license)
 
 ## 🎮 Overview
 The **Treasure Salesman Game** is a competitive two-player strategy game where players explore a grid-based map to find hidden treasures, navigate through traps and obstacles, and engage in battles. The goal is to collect and sell as many treasures as possible while strategically using resources to gain an advantage.
