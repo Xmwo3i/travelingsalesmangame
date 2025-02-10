@@ -1,8 +1,7 @@
 package com.example.travelingsalesmangame;
 
-import com.example.travelingsalesmangame.TravelingSalesmanGame;
 
-import java.awt.*;
+import java.awt.Point;
 
 // Trap class
 public class Trap {
@@ -14,16 +13,14 @@ public class Trap {
         this.location = location;
     }
 
-    public void trigger(TravelingSalesmanGame.Wallet wallet) {
-        boolean result = wallet.deductMoney(penalty);
-        if (result) {
-            System.out.println("Trap activated! Lost " + penalty + " money.");
-        } else {
-            System.out.println("Not enough money to deduct!");
-        }
+    public void trigger(Wallet wallet) {
+        wallet.deductMoney(penalty);
     }
 
     public Point getLocation() {
         return location;
+    }
+    public int getPenalty(){
+        return penalty;
     }
 }

@@ -10,8 +10,8 @@ module com.example.travelingsalesmangame {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-    requires java.desktop;
     requires java.datatransfer;
+    requires java.desktop;
 
     opens com.example.travelingsalesmangame to javafx.fxml;
     exports com.example.travelingsalesmangame;
