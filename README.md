@@ -1,28 +1,20 @@
-# Traveling Salesman Game
+# Treasure Salesman Game
 
-📖 Table of Contents
-
-Overview
-
-Technologies Used
-
-Installation
-
-Prerequisites
-
-Steps to Run the Game
-
-How to Play
-
-Screenshots
-
-Features
-
-Future Improvements
-
+## 📖 Table of Contents
+1. [Overview](#-overview)
+2. [Technologies Used](#-technologies-used)
+3. [Installation](#-installation)
+   - [Prerequisites](#prerequisites)
+   - [Steps to Run the Game](#steps-to-run-the-game)
+4. [How to Play](#-how-to-play)
+5. [Screenshots](#-screenshots)
+6. [Features](#-features)
+7. [Future Improvements](#-future-improvements)
+8. [Contributing](#-contributing)
+9. [License](#-license)
 
 ## 🎮 Overview
-The **Traveling Salesman Game** is a competitive two-player strategy game where players explore a grid-based map to find hidden treasures, navigate through traps and obstacles, and engage in battles. The goal is to collect and sell as many treasures as possible while strategically using resources to gain an advantage.
+The **Treasure Salesman Game** is a competitive two-player strategy game where players explore a grid-based map to find hidden treasures, navigate through traps and obstacles, and engage in battles. The goal is to collect and sell as many treasures as possible while strategically using resources to gain an advantage.
 
 ## 🛠️ Technologies Used
 - **Java** - Core programming language
@@ -71,8 +63,7 @@ The **Traveling Salesman Game** is a competitive two-player strategy game where 
 - **Winning Condition:** The player who collects the most treasures wins the game.
 
 ## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/e7d73a73-7f5e-4d5a-a780-9578f395074f)
-
+![Screenshot 2025-02-10 024458](https://github.com/user-attachments/assets/4a09b1cf-006e-4841-8d51-e7c96254a8d0)
 
 ## 🚀 Features
 ✔ Competitive two-player gameplay  
@@ -88,4 +79,6 @@ The **Traveling Salesman Game** is a competitive two-player strategy game where 
 - Implement a larger variety of weapons and power-ups.
 - Introduce different map layouts and randomized treasure placements.
 - Add a ranking system for competitive play.
+
 ---
+
